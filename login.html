@@ -1,0 +1,101 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<style>
+table{
+margin-left: auto;
+margin-right: auto;
+width:40%;
+height: 600px;
+}
+tr{
+padding: 5pt;
+text-align: left;
+background-color: rgb(153, 141, 141);
+}
+table,th,td{
+border:1px solid rgb(0, 0, 0);
+border-collapse: separate;
+}
+th{
+text-align:center;
+}
+</style>
+<body>
+<form>
+<table>
+<tr style="background-color: white;">
+<th colspan="2" >
+<h1><center>Registration Form</center></h1>
+</th>
+</tr>
+<tr>
+<th>Enter Name</th>
+<td><input type="text"></td>
+</tr>
+<tr>
+<th>Enter Password</th>
+<td><input type="password"></td>
+</tr>
+<tr>
+<th>Enter Address</th>
+<td><textarea name="address" id="" cols="20" rows="4"></textarea></td>
+</tr>
+<tr>
+<th>Select Games</th>
+<td>
+<input type="checkbox" value="Hokey"><label> Hokey</label></br>
+<input type="checkbox" value="Football"><label> Football</label></br>
+<input type="checkbox" value="Badminton"><label>badminton</label></br>
+<input type="checkbox" value="Cricket"><label> Cricket</label></br>
+<input type="checkbox" value="Vollyball"><label>Vollyball</label></br>
+</td>
+</tr>
+<tr>
+<th>
+Gender
+</th>
+<td>
+<input type="radio" value="Male" Name="Gender"><label>Male</label>
+<input type="radio" value="Female" Name="Gender"><label>Female</label>
+</td>
+</tr>
+<tr>
+<th>
+Select Your Age
+</th>
+<td>
+<select>
+<option >Select</option>
+<option >1-18</option>
+<option>18-60</option>
+<option>above 60</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>
+Choose File
+</th>
+<td>
+<input type="file">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<center>
+<button>Click Me</button>
+<button>Reset</button>
+<button>Submit Form</button>
+</center>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
